@@ -24,6 +24,7 @@
     flex-direction: column;
     /* border-style: solid; */
     width: 317px;
+    padding-top: 10px;
     margin-right: 4vw;
     height: 99vh;
 }
@@ -112,6 +113,7 @@ grid-column: 1/4;
     width: auto;
     height: auto;
 }
+  /* for page 1 
 .b2b3{
     height: 62vh;
     display: grid;
@@ -120,11 +122,60 @@ grid-column: 1/4;
     padding-left: 10px;
     grid-row-gap: 5px;
     overflow: scroll;
-    /* border-style: solid; */
+    /* border-style: solid; */ 
     /* scroll-behavior: auto; */
-}
+/*}
 .layout{
     display: flex;
+    padding-top: 5px ;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: aqua;
+    margin: 2px;
+    height: 60px;
+}  uncomment all */
+
+/*for page 2*/
+.b2b3{ 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 62vh;
+}
+.b2b3d1{
+    width: 8rem;
+    display: grid;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    grid-row-gap: 5px;
+    overflow: scroll;
+}
+.yearlayout{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    background-color: aqua;
+    padding-top: 5px ;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin: 2px;
+    height: 60px;
+}
+.b2b3d2{
+    width: 49rem;
+    display: grid;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    grid-row-gap: 5px;
+    overflow: scroll;
+}
+.studentlayout{
+    display: flex;
+    flex-direction: column;
     padding-top: 5px ;
     padding-left: 5px;
     border-radius: 5px;
@@ -165,7 +216,8 @@ grid-column: 1/4;
                 <div class="fimage">BHM</div>
             </div>
         </div> 
-        <div class="b2b3">
+        <!-- for page 1 
+            <div class="b2b3">
             <div class="layout">2079</div>
             <div class="layout">2078</div>
             <div class="layout">2077</div>
@@ -176,7 +228,44 @@ grid-column: 1/4;
             <div class="layout">2072</div>
             <div class="layout">2071</div>
             <div class="layout">2070</div>
-    </div>
+    </div> uncomment all -->
+        <!-- for page 2 -->
+        <div class="b2b3">
+            <div class="b2b3d1">
+                <div class="yearlayout">2079</div>
+                <div class="yearlayout">2078</div>
+                <div class="yearlayout">2077</div>
+                <div class="yearlayout">2076</div>
+                <div class="yearlayout">2075</div>
+                <div class="yearlayout">2074</div>
+                <div class="yearlayout">2073</div>
+                <div class="yearlayout">2072</div>
+                <div class="yearlayout">2071</div>
+                <div class="yearlayout">2070</div>
+            </div>
+            <div class="b2b3d2">
+                <div class="studentlayout">alex</div>
+                <div class="studentlayout">anish</div>
+                <div class="studentlayout">ashim</div>
+                <div class="studentlayout">baburam</div>
+                <div class="studentlayout">bibek</div>
+                <div class="studentlayout">bishwa</div>
+                <div class="studentlayout">bhupendra</div>
+                <div class="studentlayout">divya</div>
+                <div class="studentlayout">dip</div>
+                <div class="studentlayout">bana</div>
+                <div class="studentlayout">jyoti</div>
+                <div class="studentlayout">kanchan</div>
+                <div class="studentlayout">sampanna</div>
+                <div class="studentlayout">saimon</div>
+                <div class="studentlayout">kastuv</div>
+                <div class="studentlayout">sunita</div>
+                <div class="studentlayout">sanja</div>
+                <div class="studentlayout">binita</div>
+                <div class="studentlayout">swastika</div>
+            </div>
+        </div>
+        <!-- comment from page 2 to here to load page 1 -->
 </body>
 <footer></footer>
 </html>
